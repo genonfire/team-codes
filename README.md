@@ -8,7 +8,6 @@ This Python script reads a `.lnc` file containing football club information, ext
 * Supports both `CLUB_NAME_CHANGE` and `CLUB_SHORT_NAME_CHANGE` entries.
 * Correctly handles club names with spaces.
 * Looks up 3-letter club codes from `codes.json`.
-* Prevents duplicate entries by replacing any existing `#Codes` section.
 * Appends new entries in the format:
 
   ```
@@ -26,7 +25,7 @@ This Python script reads a `.lnc` file containing football club information, ext
 2. Run the script:
 
    ```bash
-   python script.py [filename.lnc]
+   python change.py [filename.lnc]
    ```
 
    If no filename is provided, `FM26 Club Names by FMScout.lnc` is used by default.
@@ -34,7 +33,7 @@ This Python script reads a `.lnc` file containing football club information, ext
 ## Example
 
 ```bash
-python script.py
+python change.py
 Updated 406 clubs.
 ```
 
