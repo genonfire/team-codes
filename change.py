@@ -28,7 +28,7 @@ for line in content:
             code = codes.get(club_name)
             if code is not None:
                 entry = (
-                    '"CLUB_6LETTER_NAME_CHANGE"'
+                    '"CLUB_3LETTER_NAME_CHANGE"'
                     f'\t{club_number}\t{code}\t""'
                 )
                 club_entries.append(entry)

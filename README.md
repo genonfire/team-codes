@@ -11,7 +11,7 @@ This Python script reads a `.lnc` file containing football club information, ext
 * Appends new entries in the format:
 
   ```
-  "CLUB_6LETTER_NAME_CHANGE"\t<club_number>\t<3-letter code>\t""
+  "CLUB_3LETTER_NAME_CHANGE"\t<club_number>\t<3-letter code>\t""
   ```
 * Prints a summary of the number of clubs updated.
 
