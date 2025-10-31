@@ -39,6 +39,11 @@ Updated 406 clubs.
 
 This will read `FM26 Club Names by FMScout.lnc`, update the club codes, and print how many clubs were updated.
 
+### Output
+
+- Updates the original `.lnc` file by adding club codes under `#Codes`
+- Also creates a separate file `FM26 Club Codes.lnc` containing only the generated lines
+
 ## Source
 
 * The 3-letter club codes were obtained from Reuters Sports Team Codes:
